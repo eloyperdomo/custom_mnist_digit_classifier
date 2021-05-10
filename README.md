@@ -34,11 +34,14 @@ The **weights** matrix is of size 784x10, because I want and output for each lab
 ### Second model
 For the second model  I add an activation function (Rectified Linear Unit) and a second layer. So it is a matrix multiplication, followed by a reLU and another matrix multiplication.
 
-In this notebook I use some basic pytorch functions and classes (F.cross_entropy, nn.Linear) to develop a deep learning model from scratch able to classify digits with 97% accuracy on validation set.
-Also, I create my own implementation of fastai Learner class which allowed me to train the model much faster.
 
 # Learner Class
-To be able to use all this pieces as a whole I create a class called learner2. Each instance of this class have a dataloaders object, a model, an optimation function , a loss function and a metric. It has two basic funtionalities:
-* **.fit**: to be able to train the model with a specific learning rate.
-* **.predict**
+To be able to use all this pieces as a whole I create a class called learner2. Each instance of this class have a dataloaders object, a model, an optimation function , a loss function and a metric. 
+
+It has two basic funtionalities:
+* **.fit**: a method that allows to train the model with a specific learning rate.
+* **.predict**: a method that obtain the predictions from the model after applying the necessary steps.
+
 ## Conclusion
+In this notebook I use some basic pytorch functions and classes (F.cross_entropy, nn.Linear) to develop a deep learning model from scratch able to classify digits with 97% accuracy on validation set.
+Also, I create my own implementation of fastai Learner class which allowed me to train the model much faster.
