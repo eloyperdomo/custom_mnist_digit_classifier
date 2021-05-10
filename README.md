@@ -6,7 +6,7 @@
 * Create a class to be able to train the model using the loss function and showing the metric results.
 * Compare the results with a more complex model.
 
-## Introduction
+## Overview
 In this notebook I used the foundations behind Neural Networks to develop a model able to classify **handwritten digits** using MNIST public dataset. Modified National Institute of Standards and Technology (MNIST) dataset consists of a set of 28 by 28 grayscale images of handwitten single digits between 0 and 9.
 
 ## Data
