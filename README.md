@@ -7,11 +7,11 @@
 * Compare the results with a more complex model.
 
 ## Introduction
-In this notebook I used the foundations behind Neural Networks to develop a model able to classify **handwritten digits**.
+In this notebook I used the foundations behind Neural Networks to develop a model able to classify **handwritten digits** using MNIST public dataset. Modified National Institute of Standards and Technology (MNIST) dataset consists of a set of 28 by 28 grayscale images of handwitten single digits between 0 and 9.
 
 ## Data
 
-Consists of 70000 black and white images of 28\*28 pixels with a label associated to each image (0-9 floating point number). Each pixel is an integer between 0 and 255 (both included), so I scaled them between 0 and 1 for better performance of the model. Also, I converted each label to an integer. The result are 70000 numpy arrays of 784 floating point numbers of range 0-1, with an integer between 0 to 9 as the label associated with each.
+Consists of 70000 grayscale images of 28\*28 pixels with a label associated to each image (0-9 floating point number). Each pixel is an integer between 0 and 255 (both included), so I scaled them between 0 and 1 for better performance of the model. Also, I converted each label to an integer. The result are 70000 numpy arrays of 784 floating point numbers of range 0-1, with an integer between 0 to 9 as the label associated with each.
 
 Then I randomly selected 15% of the images (10500) to use them as validation set.
 
