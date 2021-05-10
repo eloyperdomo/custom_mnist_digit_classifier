@@ -46,4 +46,4 @@ It has two basic funtionalities:
 In this notebook I use some basic pytorch functions and classes (F.cross_entropy, nn.Linear) to develop a deep learning model from scratch able to classify handwritten digits with 97% accuracy on validation set.
 Also, I create my own implementation of fastai Learner class which allowed me to train the model much faster.
 
-*This project is based on fastai book chapter 4. Link to the books chapter: https://github.com/fastai/fastbook/blob/master/04_mnist_basics.ipynb
+*This project is based on fastai book chapter 4. Link to the book's chapter: https://github.com/fastai/fastbook/blob/master/04_mnist_basics.ipynb*
