@@ -1,10 +1,10 @@
 # Neural Network from scratch for digit classification
 
-* Prepare the data
-* Create a loss function and a metric
-* Select a basic model
-* Create a class to be able to train the model using the loss function and showing the metric results
-* Compare the results with a more complex model
+* Prepare the data.
+* Create a loss function and a metric.
+* Select a basic model.
+* Create a class to be able to train the model using the loss function and showing the metric results.
+* Compare the results with a more complex model.
 
 ## Introduction
 In this notebook I used the foundations behind Neural Networks to develop a model able to classify **handwritten digits**.
@@ -22,7 +22,7 @@ Lastly, to make the computation faster I divided the data into mini-batchs of si
 ## Loss Function and Metric
 As a loss function I use **Cross Entropy**. It consists of log_softmax + negative log likelihood.
 
-As a metric, because this is a classification task, I use **Accuracy** which seems to me as the most interpretable one.
+As a metric, because this is a classification task, I use **Accuracy** which seems to me as the most interpretable.
 
 ## Model
 
