@@ -35,7 +35,7 @@ The **weights** matrix is of size 784x10, because I want and output for each lab
 For the second model  I add an activation function (Rectified Linear Unit) and a second layer. So it is a matrix multiplication, followed by a reLU and another matrix multiplication.
 
 
-# Learner Class
+## Learner Class
 To be able to use all this pieces as a whole I create a class called learner2. Each instance of this class have a dataloaders object, a model, an optimation function , a loss function and a metric. 
 
 It has two basic funtionalities:
